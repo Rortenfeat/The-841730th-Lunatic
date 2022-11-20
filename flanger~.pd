@@ -1,0 +1,18 @@
+#N canvas 1213 759 450 300 12;
+#X obj 134 49 inlet;
+#X obj 209 52 inlet;
+#X obj 282 58 inlet;
+#X obj 211 96 osc~ \$2;
+#X obj 292 123 loadbang;
+#X obj 292 147 f \$1;
+#X obj 61 215 outlet~;
+#X obj 70 156 fexpr~ $x1+$x1[($x2-1)*$f3];
+#X obj 40 50 inlet~ fwd;
+#X connect 0 0 7 2;
+#X connect 1 0 3 0;
+#X connect 2 0 3 1;
+#X connect 3 0 7 1;
+#X connect 4 0 5 0;
+#X connect 5 0 7 2;
+#X connect 7 0 6 0;
+#X connect 8 0 7 0;
