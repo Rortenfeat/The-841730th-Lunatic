@@ -6,6 +6,10 @@ For a better performance while recording the video, I moved it into Purr Data, c
 
 "841730" has no special meaning except it was the seed number for random functions in the video.
 
+## Preview
+
+Bilibili: https://www.bilibili.com/video/BV1rD4y1s76q/
+
 ## References
 
 Some of the abstractions are referred from:
